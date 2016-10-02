@@ -1,0 +1,37 @@
+<!doctype html> <!--initializes html document-->
+<html class="no-js" lang="">                                                                <!--allows you to make new CSS rules for when js is disabled-->
+    <head>                                                                                  <!--starts head tag-->
+        <meta charset="utf-8">                                                              <!--Defines the document's character set-->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">                               <!--Helps make the browser compatible with ie-->
+        <title></title>                                                                     <!--starts and ends title tag-->
+        <meta name="description" content="">                                                <!--creates description for search engines-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">                <!--creates responsive screensize depending on device-->
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">                           <!--provides logo for website-->
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">                                    <!--connects normalize.css document to html file-->
+        <link rel="stylesheet" href="css/main.css">                                         <!--connects main.css document to html file -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>                            <!--connects modernizer cdn to html file-->
+    </head>                                                                                 <!--closes head tag-->
+    <body>                                                                                  <!--Starts body tag-->
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->                                                                           <!--sends message to update ie browser if it is too old-->
+
+        <!-- Add your site or application content here -->
+        <p>Hello world! This is HTML5 Boilerplate.</p>                                         <!--creates paragraph within file-->
+
+        <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>       <!--adds jquerey cdn to html-->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script> <!--creates a local copy of jquerey cdn-->
+        <script src="js/plugins.js"></script>                                                  <!--connects js plugins file-->
+        <script src="js/main.js"></script>                                                     <!--connects main.js file-->
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.-->   
+        <script>                                                                                <!--starts script tag for upcoming jQuery -->                   
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>                                                                              <!--ends script tag-->
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>      <!--adds analytics.js library-->
+    </body>                                                                                    <!--ends body tag-->
+</html>                                                                                        <!--ends html document-->
